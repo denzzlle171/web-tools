@@ -10,7 +10,7 @@
     "build:scripts": "webpack --mode=production",
     "clean": "rm -rf ./dist",
     "build": "npm-run-all clean build:* copy:*",
-    "watch": "webpack --mode=development --devtool eval-source-maps -w"
+    "watch": "webpack --mode=development --devtool eval-source-map -w"
   },
   "keywords": [],
   "author": "",
